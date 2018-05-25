@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Multitouch Game</string>
+    <string name="title_activity_how_to_play">How To Play</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="game_title">MULTI TOUCH COMPETITION</string>
+    <string name="start_game">2 PLAYERS</string>
+    <string name="single_play">SOLO TRAINING</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="mode">Pressure Mode</string>
+    <string name="not_available_general">Not available on some devices</string>
+    <string name="not_available">Not available on your device :(</string>
+    <string name="available">Pressure is also considered for scoring</string>
+    <string name="amount_round">Amount of rounds</string>
+    <string name="round_number">3</string>
+    <string name="circle_size">Circle size</string>
+    <string name="circle_size_input">75</string>
+    <string name="calibrate">Calibrate touch pressure</string>
+    <string name="recalibrate">Re-calibrate touch pressure</string>
+    <string name="touch_light">Touch as light as you can</string>
+    <string name="touch_hard">Touch as HARD as you can</string>
+    <string name="save_settings">Save Settings</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START!</string>
+    <string name="slide_1_title">Welcome to Multitouch Competition</string>
+    <string name="slide_1_desc">This is an introduction to this app. If you already knew, just skip ahead! </string>
+    <string name="slide_2_title">This app was developed for the purpose of the course "Mobile Devices" under the supervision of Prof. Dr. Thomas Gabel</string>
+    <string name="slide_3_title">Have fun!</string>
+    <string name="slide_3_desc">And make sure to check out help section ? before starting the game</string>
+
+    <string name="about">About</string>
+    <string name="app_info">This app was developed for the purpose of the course "Mobile Devices"</string>
+    <string name="author">Author</string>
+    <string name="author_name">Chi Nguyen</string>
+    <string name="author_bio">currently studying under the field Computer Science - Mobile Applications at the Frankfurt University of Applied Sciences</string>
+    <string name="website"><a href="http://chimnguyen.com">www.chimnguyen.com</a></string>
+    <string name="credit">Credits</string>
+    <string name="prof">Prof. Dr. Thomas Gabel for supervising and helping with the problems during the app development</string>
+    <string name="credit_gf">My girlfriend for helping with the design decisions</string>
+    <string name="free_source_1"><a href="www.freepik.com">www.freepik.com</a></string>
+    <string name="free_source_2"><a href="www.freesound.org">www.freesound.org</a></string>
+    <string name="free_source_3"><a href="https://github.com/bumptech/glide">https://github.com/bumptech/glide</a></string>
+    <string name="free_source_4"><a href="https://fonts.google.com">https://fonts.google.com</a></string>
+
+
+    <string name="instruction_text">Gameplay</string>
+    <string name="instruction_text1">Beginning of each round a random amount of circles (2-5) will be generated which will be shown for 1 second before turning to a blank screen.</string>
+    <string name="instruction_text2">Now it\'s your turn to play, you\'ll have to try your best to touch the positions where the circles were. Each correct tap on the circle will earn you 1 point. A result screen will be shown at the end of each round, you can take your time and tap anywhere to continue to the next round.</string>
+    <string name="instruction_mode">Game modes</string>
+    <string name="instruction_multiplay">As the default game, <b>2 players</b> can play in turns. Game duration can be set in the settings, whoever has more points in the end wins.</string>
+    <string name="instruction_single_play">You can practice alone in the <b>Training</b>, the amount of circles will increase each round until 5, and then it will be random.</string>
+    <string name="instruction_pressure_mode1"><b>Pressure mode</b> can be chosen if you find the original mode too easy. You will need to calibrate the minimum and maximum pressures due to the different limits of sensors on devices.</string>
+    <string name="instruction_pressure_mode2">Each circle will be shown in Green or Yellow or Red representing the pressure you must tap on it (Low, Medium, High pressure). With a correct pressure pressed, you will gain an additional point.</string>
+    <string name="instruction_allmodes">As the default game, <b>2 players</b> can play in turns. Game duration can be set in the settings, whoever has more points in the end wins. You can practice alone in the <b>Training</b>, the amount of circles will increase each round until 5, and then it will be random. <b>Pressure mode</b> can be chosen if you find the original mode too easy. You will need to calibrate the minimum and maximum pressures due to the different limits of sensors on devices. Each circle will be shown in Green or Yellow or Red representing the pressure you must tap on it (Low, Medium, High pressure). With a correct pressure pressed, you will gain an additional point.</string>
+</resources>

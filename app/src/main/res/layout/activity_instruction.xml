@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/instruction"
+    android:background="@color/colorPrimary"
+    tools:context="com.chimnguyen.multitouchcompetition.Instruction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_text"
+        android:text="@string/instruction_text"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/text_dist"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:textSize="@dimen/instruction_title"
+        android:textColor="@color/textColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_text1"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_text1"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_text2"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:paddingTop="@dimen/text_dist"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_text2"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_mode"
+        android:textSize="@dimen/instruction_title"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:paddingTop="@dimen/text_dist"
+        android:text="@string/instruction_mode"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_multiplay"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_multiplay"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_single_play"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:paddingTop="@dimen/text_dist"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_single_play"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_pressure1"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:paddingTop="@dimen/text_dist"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_pressure_mode1"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction_pressure2"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:textSize="@dimen/instruction_text"
+        android:text="@string/instruction_pressure_mode2"
+        android:textColor="@color/textColor"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
